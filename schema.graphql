@@ -1,0 +1,6 @@
+type BridgeRequest @entity {
+	id: ID!
+	address: String! #address
+	amount: BigInt! # uint256
+	signature: String!
+}
