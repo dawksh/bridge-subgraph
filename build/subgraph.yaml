@@ -21,6 +21,4 @@ dataSources:
       eventHandlers:
         - event: BridgeToken(address,uint256,string)
           handler: handleBridgeToken
-        - event: Received(address,uint256)
-          handler: handleReceived
       file: Bridge\Bridge.wasm
