@@ -18,6 +18,5 @@ export function handleBridgeToken(event: BridgeToken): void {
   entity.signature = event.params.param2;
 
   entity.save()
-
 }
 
